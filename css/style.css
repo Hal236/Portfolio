@@ -227,6 +227,10 @@ header h1{
 	display:flex;
 } 
 
+.food_option ul{
+	list-style:none;
+}
+
 .food_section h1{
     border-bottom:2px solid #F3A68C;
     padding:.25em 0 .5em .75em;
@@ -247,10 +251,6 @@ header h1{
     height:800px;
     margin:100px 20px;
 	object-fit:cover;
-}
-
-.food_option ul{
-	list-style:none;
 }
 
 .side_box{
@@ -516,3 +516,158 @@ footer div{
 	text-align:center;
 }
 
+
+/* スマホ・タブレット対応 */
+@media screen and (max-width:768px){
+	
+body{
+	width:1000px;
+}
+
+.icon{
+	display:none;
+}
+
+header h1{
+	margin:5% auto;
+	font-size:3.2rem;
+}
+
+.menu{
+	margin:auto;
+	margin-right:3%;
+}
+
+.menu ul{
+    font-size:2.2rem;
+}
+
+.menu li{
+    margin:0 20px;
+	padding:15px 15px 7px 15px;
+}
+
+.top_title{
+	font-size:4rem;
+	text-align:center;
+	padding:25% 0;
+}
+
+.top_title h2{
+	border-bottom:none;
+	padding:0;
+}
+
+.title_1::first-letter{
+	font-size:6rem;
+}
+
+.title_2::first-letter{
+	font-size:5.5rem;
+}
+
+.sub_article{
+	display:block;
+}
+
+.sub_article div{
+	text-align:center;
+	padding:none;
+}
+
+.sub_article h3{
+	border-left:none;
+}
+
+.sub_article img{
+	width:80%;
+	margin:0 10%;
+}
+
+.left div{
+	padding:initial;
+}
+
+.right div{
+	padding:initial;
+}
+
+.food_option{
+	display:initial;
+}
+
+.side_box{
+	margin:0 auto;
+	width:50%;
+}
+
+.side_box a{
+	margin:5% auto;
+}
+
+.reserve_icon{
+	display:none;
+}
+
+.hotel_top{
+	margin:100px 0;
+	padding:40px 0 0 0;
+	flex-direction:column;;
+}
+
+.hotel_top img{
+	width:initial
+}
+
+.hotel_top div{
+	padding:8%;
+}
+
+.order_1{
+	order:2;
+}
+
+.order_1 br{
+	display:none;
+}
+
+.hotel_facility img{
+	width:720px;
+    height:480px;
+}
+
+.price{
+	border:initial;
+	border-bottom:solid 1px white;
+	width:50%;
+}
+
+.room_type{
+	padding:0 50px;
+}
+
+.room_type h2{
+	text-align:center;
+	padding:15px 0 0 0;
+}
+
+.room_type ul{
+	margin:0 25%;
+	padding-top:0;
+	font-size:1.3rem;
+	list-style-type: square;
+}
+
+.room_type li{
+	padding:12px 0;
+}
+
+.footer_menu li{
+	margin:0;
+}
+
+.footer_menu{
+	padding:40px 0 40px 290px;
+}
+
+} 
