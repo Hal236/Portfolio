@@ -457,7 +457,8 @@ header h1{
 }
 
 .activity_imgs{
-    height:90vh;
+	height:90vh;
+	padding:30px;
     color:white;
 	text-align:center;
 	background-image:url(../images/activity_option_img/activity_1.jpg);
@@ -806,7 +807,6 @@ header h1{
 .activity_imgs{
 	height:initial;
 	background-image:url(../images/activity_option_img/activity_2.jpg);
-	padding:30px;
 }
 
 .activity_imgs br{
