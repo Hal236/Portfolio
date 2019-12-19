@@ -685,8 +685,9 @@ header h1{
 
 .side_box a{
 	margin:30px auto;
-	padding:25px 0;
+	padding:30px 0;
 	width:50%;
+	font-size:3.5rem;
 }
 
 .side_box br{
@@ -788,8 +789,10 @@ header h1{
 }
 
 .hotel_section a{
+	width:50%;
 	margin:30px auto;
-	font-size:2.5rem;
+	padding:30px 0;
+	font-size:3.5rem;
 }
 
 /* ここからactivityセクション */
@@ -802,6 +805,22 @@ header h1{
 
 .activity_imgs{
 	height:initial;
+	color:black;
+}
+
+.activity_imgs br{
+	display:none;
+}
+
+.activity_imgs p{
+	font-size:4rem;
+	text-align:justify;
+}
+
+.activity_imgs a{
+	width:50%;
+	padding:30px 0;
+	font-size:3.5rem;
 }
 
 /* ここからfooter */
