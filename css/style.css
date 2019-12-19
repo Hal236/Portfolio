@@ -408,7 +408,7 @@ header h1{
 
 .button_box{
     width:60%;
-    padding-top:30px;
+    padding:30px 0;
     background-color:#f6ae54;
     font-size:3rem;
     font-weight:bold;
@@ -524,6 +524,10 @@ body{
 	width:1000px;
 }
 
+p{
+	font-size:2rem;
+}
+
 .icon{
 	display:none;
 }
@@ -547,6 +551,14 @@ header h1{
 	padding:15px 15px 7px 15px;
 }
 
+.top_img{
+	height:initial;
+}
+
+.top_article br{
+	display:none;
+}
+
 .top_title{
 	font-size:4rem;
 	text-align:center;
@@ -564,6 +576,10 @@ header h1{
 
 .title_2::first-letter{
 	font-size:5.5rem;
+}
+
+.top_article p{
+	text-align:justify;
 }
 
 .sub_article{
@@ -592,6 +608,7 @@ header h1{
 	padding:initial;
 }
 
+/* ここからoptionメニュー */
 .food_option{
 	display:initial;
 }
@@ -609,6 +626,12 @@ header h1{
 	display:none;
 }
 
+/* ここからfoodメニュー*/
+.food_imgs ul{
+	justify-content: center;
+}
+
+/* ここからhotelセクション */
 .hotel_top{
 	margin:100px 0;
 	padding:40px 0 0 0;
@@ -642,8 +665,14 @@ header h1{
 	width:50%;
 }
 
+.hotel_reserve{
+	display:initial;
+}
+
 .room_type{
-	padding:0 50px;
+	padding:20px 15px;
+	width:initial;
+	font-size:2.4rem;
 }
 
 .room_type h2{
@@ -652,22 +681,47 @@ header h1{
 }
 
 .room_type ul{
-	margin:0 25%;
-	padding-top:0;
-	font-size:1.3rem;
+	margin:initial;
+	font-size:2rem;
 	list-style-type: square;
+	display:flex;
+	justify-content:center;
 }
 
 .room_type li{
-	padding:12px 0;
+	margin:auto;
 }
 
-.footer_menu li{
-	margin:0;
+.button_box{
+	width:initial;
+}
+
+.button_box p{
+	font-size:3.8rem;
+}
+
+.hotel_section a{
+	width:240px;
+	margin:30px auto;
+}
+
+/* ここからactivityセクション */
+.activity_imgs{
+	height:initial;
 }
 
 .footer_menu{
-	padding:40px 0 40px 290px;
+	padding:initial;
+	padding:50px 0;
+}
+
+.footer_menu li{
+	margin:initial;
+	font-size:2.8rem;
+}
+
+.footer_menu ul{
+	justify-content:center;
 }
 
 } 
