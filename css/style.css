@@ -638,16 +638,25 @@ header h1{
 	flex-direction:column;
 }
 
+.order_1{
+	order:2;
+}
+
 .hotel_top img{
-	width:initial
+	width:initial;
+}
+
+.hotel_top p{
+	font-size:4rem;
+	line-height:6.5rem;
+}
+
+.hotel_top h2{
+	font-size:5rem;
 }
 
 .hotel_top div{
 	padding:8%;
-}
-
-.order_1{
-	order:2;
 }
 
 .order_1 br{
