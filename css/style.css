@@ -517,7 +517,7 @@ footer div{
 }
 
 
-/* スマホ・タブレット対応 */
+/* レスポンシブ対応 */
 @media screen and (max-width:768px){
 	
 body{
@@ -533,8 +533,8 @@ p{
 }
 
 header h1{
-	margin:5% auto;
-	font-size:3.2rem;
+	margin:40px auto;
+	font-size:3.5rem;
 }
 
 .menu{
@@ -543,7 +543,9 @@ header h1{
 }
 
 .menu ul{
-    font-size:2.2rem;
+	padding:initial;
+	font-size:2.2rem;
+	font-weight:bold;
 }
 
 .menu li{
@@ -664,18 +666,38 @@ header h1{
 
 .side_box{
 	margin:0 auto;
-	width:50%;
+	padding:20px;
+	width:initial;
+	border:none;
+	border-radius:initial;
+}
+
+.side_box h2{
+	margin:40px 0;
+	font-size:5rem;
+}
+
+.side_box p{
+	text-align:justify;
+	font-size:4rem;
+	line-height:5.5rem;
 }
 
 .side_box a{
-	margin:5% auto;
+	margin:30px auto;
+	padding:25px 0;
+	width:50%;
+}
+
+.side_box br{
+	display:none;
 }
 
 /* ここからhotelセクション */
 .hotel_section h1{
 	border-bottom:none;
 	padding:initial;
-	text-align: center;
+	text-align:center;
 	font-size:7rem;
 }
 
@@ -685,6 +707,7 @@ header h1{
 	flex-direction:column;
 }
 
+/* 画像とテキストの入れ替え */
 .order_1{
 	order:2;
 }
@@ -720,7 +743,7 @@ header h1{
 }
 
 .hotel_imgs p{
-	font-size:4rem;
+	font-size:5rem;
 }
 
 .price{
@@ -761,12 +784,12 @@ header h1{
 }
 
 .button_box p{
-	font-size:3.8rem;
+	font-size:4.5rem;
 }
 
 .hotel_section a{
-	width:240px;
 	margin:30px auto;
+	font-size:2.5rem;
 }
 
 /* ここからactivityセクション */
@@ -791,6 +814,7 @@ header h1{
 .footer_menu li{
 	padding:0 30px;
 	font-size:2.8rem;
+	font-weight:bold;
 }
 
 .footer_menu ul{
