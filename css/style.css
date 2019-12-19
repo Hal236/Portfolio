@@ -559,6 +559,11 @@ header h1{
 	display:none;
 }
 
+.top_article p{
+	font-size:4.5rem;
+	line-height:initial;
+}
+
 .top_title{
 	font-size:4rem;
 	text-align:center;
@@ -582,6 +587,11 @@ header h1{
 	text-align:justify;
 }
 
+.top_section h2{
+	font-size:5rem;
+	margin:30px 0;
+}
+
 .sub_article{
 	display:block;
 }
@@ -593,6 +603,8 @@ header h1{
 
 .sub_article h3{
 	border-left:none;
+	margin:30px 0;
+	font-size:5rem;
 }
 
 .sub_article img{
@@ -609,8 +621,45 @@ header h1{
 }
 
 /* ここからoptionメニュー */
+.option{
+	display:initial;
+}
+
+.option_menu h2{
+	font-size:6rem;
+}
+
+.service_imgs{
+	margin:0 15px;
+}
+
+.service_imgs h3,.service_imgs h2{
+	font-size:5rem;
+}
+
+.service_imgs p{
+	font-size:4.5rem;
+	padding-bottom:60px;
+}
+
+.reserve_icon{
+	display:none;
+}
+
+/* ここからfoodメニュー*/
 .food_option{
 	display:initial;
+}
+
+.food_section h1{
+	border-bottom:none;
+	padding:initial;
+	text-align: center;
+	font-size:7rem;
+}
+
+.food_imgs ul{
+	justify-content:center;
 }
 
 .side_box{
@@ -622,16 +671,14 @@ header h1{
 	margin:5% auto;
 }
 
-.reserve_icon{
-	display:none;
-}
-
-/* ここからfoodメニュー*/
-.food_imgs ul{
-	justify-content: center;
-}
-
 /* ここからhotelセクション */
+.hotel_section h1{
+	border-bottom:none;
+	padding:initial;
+	text-align: center;
+	font-size:7rem;
+}
+
 .hotel_top{
 	margin:100px 0;
 	padding:40px 0 0 0;
@@ -663,9 +710,17 @@ header h1{
 	display:none;
 }
 
+.hotel_facility h2{
+	font-size:5rem;
+}
+
 .hotel_facility img{
 	width:720px;
     height:480px;
+}
+
+.hotel_imgs p{
+	font-size:4rem;
 }
 
 .price{
@@ -685,16 +740,15 @@ header h1{
 }
 
 .room_type h2{
+	padding:20px 0 30px 0;
 	text-align:center;
-	padding:15px 0 0 0;
+	font-size:5rem;
 }
 
 .room_type ul{
 	margin:initial;
-	font-size:2rem;
-	list-style-type: square;
-	display:flex;
-	justify-content:center;
+	text-align: center;	
+	font-size:4rem;
 }
 
 .room_type li{
@@ -703,6 +757,7 @@ header h1{
 
 .button_box{
 	width:initial;
+	padding:20px 0 10px 0;	
 }
 
 .button_box p{
@@ -715,6 +770,13 @@ header h1{
 }
 
 /* ここからactivityセクション */
+.activity_section h1{
+	border-bottom:none;
+	padding:initial;
+	text-align: center;
+	font-size:7rem;
+}
+
 .activity_imgs{
 	height:initial;
 }
