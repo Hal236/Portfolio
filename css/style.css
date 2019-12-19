@@ -31,7 +31,7 @@ ul,p{
 	font-size:2.4rem;
 }
 
-/* ここからヘッダー */
+/* ここからヘッダーメニュー */
 header{
 	background-color:#696969;
 	color:white;
@@ -74,7 +74,7 @@ header h1{
 	cursor:pointer;
 }
 
-/* ここから見出し*/
+/* ここから見出しセクション*/
 .top_img{
 	height:100vh;
 	background-image:url(../images/top_page/top_img.jpg);
@@ -253,6 +253,7 @@ header h1{
 	object-fit:cover;
 }
 
+/* サイドメニュー */
 .side_box{
     width:35%;
 	height:40%;
@@ -456,6 +457,7 @@ header h1{
 	margin-bottom:100px;
 }
 
+/* 背景用画像 */
 .activity_imgs{
 	height:90vh;
 	padding:30px;
@@ -484,7 +486,7 @@ header h1{
     font-size:2rem;
 }
 
-/* ここからフッダー */
+/* ここからフッダー魔ニュー */
 footer{
 	background-color:#696969;
 	color:white;
@@ -518,7 +520,7 @@ footer div{
 }
 
 
-/* レスポンシブ対応 */
+/* メディアクエリ */
 @media screen and (max-width:768px){
 	
 body{
@@ -529,6 +531,7 @@ p{
 	font-size:2rem;
 }
 
+/* ここから見出しセクション */
 .icon{
 	display:none;
 }
@@ -540,7 +543,7 @@ header h1{
 
 .menu{
 	margin:auto;
-	margin-right:3%;
+	margin-right:20px;
 }
 
 .menu ul{
@@ -595,6 +598,7 @@ header h1{
 	margin:30px 0;
 }
 
+/* サブ見出しセクション */
 .sub_article{
 	display:block;
 }
@@ -665,6 +669,7 @@ header h1{
 	justify-content:center;
 }
 
+/* サイドメニュー */
 .side_box{
 	margin:0 auto;
 	padding:20px;
@@ -709,11 +714,6 @@ header h1{
 	flex-direction:column;
 }
 
-/* 画像とテキストの入れ替え */
-.order_1{
-	order:2;
-}
-
 .hotel_top img{
 	width:initial;
 }
@@ -728,7 +728,12 @@ header h1{
 }
 
 .hotel_top div{
-	padding:8%;
+	padding:50px;
+}
+
+/* 画像とテキストの入れ替え */
+.order_1{
+	order:2;
 }
 
 .order_1 br{
@@ -754,6 +759,7 @@ header h1{
 	width:50%;
 }
 
+/* ホテル予約メニュー */
 .hotel_reserve{
 	display:initial;
 }
@@ -804,6 +810,7 @@ header h1{
 	font-size:7rem;
 }
 
+/* 背景画像の変更 */
 .activity_imgs{
 	height:initial;
 	background-image:url(../images/activity_option_img/activity_2.jpg);
@@ -825,7 +832,7 @@ header h1{
 	font-size:3.5rem;
 }
 
-/* ここからfooter */
+/* ここからフッダーメニュー */
 
 .footer_menu{
 	padding:initial;
