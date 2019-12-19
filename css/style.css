@@ -805,7 +805,8 @@ header h1{
 
 .activity_imgs{
 	height:initial;
-	color:black;
+	background-image:url(../images/activity_option_img/activity_2.jpg);
+	padding:30px;
 }
 
 .activity_imgs br{
@@ -813,8 +814,9 @@ header h1{
 }
 
 .activity_imgs p{
-	font-size:4rem;
+	font-size:3rem;
 	text-align:justify;
+	justify-content:center;
 }
 
 .activity_imgs a{
