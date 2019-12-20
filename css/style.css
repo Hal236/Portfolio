@@ -15,16 +15,8 @@ html{
 	background-color:#FFFF;
 }
 
-h1{
+h1,h2,ul,p{
     font-family:"brother-1816","heisei-kaku-gothic-std","Hiragino Kaku Gothic ProN","游ゴシック体","Yu Gothic","YuGothic","メイリオ","Meiryo",sans-serif;
-}
-
-h2{
-    font-family:"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;;
-}
-
-ul,p{
-    font-family:"DINMed,HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;;
 }
 
 .wrap{
@@ -35,10 +27,16 @@ ul,p{
 header{
 	background-color:#696969;
 	color:white;
+	padding:20px 0;
 }
 
 .header_content{
 	display:flex;
+}
+
+.header_content p{
+	font-size:4rem;
+	padding:10px 0;
 }
 
 .icon{
@@ -46,7 +44,8 @@ header{
 	padding:22px 0 0 35px;
 }
 
-header h1{
+header p{
+	font-size:5rem;
 	margin-top:25px;
 	letter-spacing:.1em;
 }
@@ -84,30 +83,11 @@ header h1{
 }
 
 .top_title{
-	font-size:4.5rem;
+	padding:300px 0;
+	text-align:center;
+	font-size:3vw;
 	color:white;
 	letter-spacing:.1em;
-}
-
-.top_title h2{
-    border-bottom:5px double #CCCCCC;
-}
-
-
-.title_1{
-	padding:250px 0 0 400px;
-}
-
-.title_1::first-letter{
-	font-size:11rem;
-}
-
-.title_2{
-	padding:80px 0 0 700px;
-}
-
-.title_2::first-letter{
-	font-size:11rem;
 }
 
 .top_article{
@@ -117,12 +97,14 @@ header h1{
 	font-size:2.2rem;
 }
 
-.top_article p{
-    font-size:1.6rem;
+.top_article h1{
+	margin:100px 0 60px 0;
+	text-align:center;
+	font-size:5rem;
 }
 
-.top_section{
-	margin-top:200px;
+.top_article p{
+    font-size:1.6rem;
 }
 
 .top_section img{
@@ -132,11 +114,12 @@ header h1{
 }
 
 .top_section div{
-	text-align:center;
+	text-align:justify;
 }
 
 .top_section h2{
 	margin:30px 0 20px 0;
+	text-align:center;
 }
 
 /* ここからサブ見出し */
@@ -220,16 +203,25 @@ header h1{
 }
 
 /* ここからFoodセクション */
-.food_option{
-	width:90%;
-    margin:auto;
-    line-height:3rem;
-	display:flex;
-} 
+
+.food_option {
+	width: 100%;
+	margin: auto;
+	line-height: 3rem;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1500px;
+	justify-content: center;
+	position: relative;
+   }
 
 .food_option ul{
 	list-style:none;
 }
+
+.food_section {
+	width: 1000px;
+   }
 
 .food_section h1{
     border-bottom:2px solid #F3A68C;
@@ -254,15 +246,23 @@ header h1{
 }
 
 /* サイドメニュー */
+
 .side_box{
-    width:35%;
-	height:40%;
-    border:2px solid #C0C0C0;
-    border-radius:30px;
-    margin:300px 0 0 30px;
-    background-color:#FDEDE4;
+	width:300px;
+	height:600px;
+	border:2px solid #C0C0C0;
+	border-radius: 30px;
+	background-color: #FDEDE4;
 	text-align:center;
 	font-size:1.6rem;
+	margin:15% 0;
+	position:relative;
+	top:250px;
+	transform:translateY(-50%);
+	}
+
+.side_inner{
+	padding:25% 0;
 }
 
 .reserve_icon{
@@ -398,17 +398,18 @@ header h1{
     margin:auto;
     color:white;
 	display:flex;
+	
 }
 
 .room_type{
-    width:50%;
-    padding:0 0 0 180px;
+	width:40%;
+    padding:30px 20%;
     font-size:1.6rem;
     background-color:#7e837f;
 }
 
 .button_box{
-    width:60%;
+	width:60%;
     padding:30px 0;
     background-color:#f6ae54;
     font-size:3rem;
@@ -423,10 +424,6 @@ header h1{
     padding:12px 0;
     background-color:#ee7800;
 	font-size:1.6rem;
-}
-
-.room_type h2{
-    padding:20px 0 10px 0;
 }
 
 .room_type ul{
@@ -493,18 +490,19 @@ footer{
 }
 
 .footer_menu{
-	padding:40px 0 40px 450px;
+	padding:50px 0;
 }           
 
 .footer_menu ul{
 	display:flex;
 	font-size:1.8rem;
 	list-style:none;
+	justify-content:center;
 }
 
 .footer_menu li{
     margin:0 20px;
-	padding:0 10px 0 10px;
+	padding:0 10px;
 }
 
 .footer_menu li:hover{
@@ -513,8 +511,8 @@ footer{
 }
 
 footer div{
-    margin:auto;
+    /* margin:auto; */
     padding:20px 0;
-    font-size:1.8rem;
+    font-size:1.6rem;
 	text-align:center;
 }

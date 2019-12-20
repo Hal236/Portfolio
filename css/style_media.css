@@ -1,8 +1,18 @@
-/* メディアクエリ */
+/* メディアクエリ　調節用 */
+@media screen and (max-width:1400px){
+
+.side_box{
+	margin:initial;
+}
+
+}
+
+/* メディアクエリ モバイル向け*/
 @media screen and (max-width:768px){
 	
 body{
 	width:1000px;
+	max-width:1000px;
 }
 
 p{
@@ -49,23 +59,13 @@ header h1{
 }
 
 .top_title{
-	font-size:4rem;
 	text-align:center;
-	padding:25% 0;
 }
 
-.top_title h2{
-	border-bottom:none;
-	padding:0;
+.top_title p{
+	font-size:7rem;
 }
 
-.title_1::first-letter{
-	font-size:6rem;
-}
-
-.title_2::first-letter{
-	font-size:5.5rem;
-}
 
 .top_article p{
 	text-align:justify;
@@ -73,7 +73,7 @@ header h1{
 
 .top_section h2{
 	font-size:5rem;
-	margin:30px 0;
+	margin:80px 0 60px 0
 }
 
 /* サブ見出しセクション */
@@ -150,10 +150,13 @@ header h1{
 /* サイドメニュー */
 .side_box{
 	margin:0 auto;
+	height:initial;
 	padding:20px;
 	width:initial;
 	border:none;
 	border-radius:initial;
+	position:static;
+	transform:none;
 }
 
 .side_box h2{
@@ -176,6 +179,10 @@ header h1{
 
 .side_box br{
 	display:none;
+}
+
+.side_inner{
+	padding:0;
 }
 
 /* ここからhotelセクション */
@@ -256,7 +263,7 @@ header h1{
 
 .room_type ul{
 	margin:initial;
-	text-align: center;	
+	text-align: center;
 	font-size:4rem;
 }
 
@@ -266,7 +273,7 @@ header h1{
 
 .button_box{
 	width:initial;
-	padding:20px 0 10px 0;	
+	padding:20px 0 10px 0;
 }
 
 .button_box p{
