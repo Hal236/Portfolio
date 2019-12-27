@@ -1,8 +1,24 @@
-/* メディアクエリ　調節用 */
-@media screen and (max-width:1400px){
+/* メディアクエリ　大き目のタブレット(ipad pro)向け */
+@media screen and (max-width:1280px){
+.menu ul{
+	flex-wrap:wrap;
+}
+
+.food_section{
+	flex-wrap:wrap;
+}
 
 .side_box{
-	margin:initial;
+	width: 650px;
+    height: 350px;
+}
+
+.side_box h2{
+	margin-top:10px;
+}
+
+.side_inner{
+	padding:initial;
 }
 
 }
@@ -26,7 +42,7 @@ p{
 
 header h1{
 	margin:40px auto;
-	font-size:3.5rem;
+	font-size:3.3rem;
 }
 
 .menu{
@@ -62,7 +78,7 @@ header h1{
 	text-align:center;
 }
 
-.top_title p{
+.top_title h1{
 	font-size:7rem;
 }
 
@@ -136,11 +152,15 @@ header h1{
 	display:initial;
 }
 
-.food_section h1{
+.food_option h1{
 	border-bottom:none;
 	padding:initial;
 	text-align: center;
 	font-size:7rem;
+}
+
+.food_section{
+	width:100%;
 }
 
 .food_imgs ul{
@@ -186,7 +206,7 @@ header h1{
 }
 
 /* ここからhotelセクション */
-.hotel_section h1{
+.hotel_option h1{
 	border-bottom:none;
 	padding:initial;
 	text-align:center;
@@ -213,7 +233,7 @@ header h1{
 }
 
 .hotel_top div{
-	padding:50px;
+	padding:60px;
 }
 
 /* 画像とテキストの入れ替え */
@@ -242,6 +262,10 @@ header h1{
 	border:initial;
 	border-bottom:solid 1px white;
 	width:50%;
+}
+
+.price span{
+	font-size:4rem;
 }
 
 /* ホテル予約メニュー */
@@ -288,7 +312,11 @@ header h1{
 }
 
 /* ここからactivityセクション */
-.activity_section h1{
+.activity_option{
+	margin:initial;
+}
+
+.activity_option h1{
 	border-bottom:none;
 	padding:initial;
 	text-align: center;

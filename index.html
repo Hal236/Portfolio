@@ -6,6 +6,7 @@
     <meta name="viewport" content="width = device-width ,initial-scale=1.0">
     <link rel="stylesheet" href="css/import.css">
     <title>Top_page</title>
+    <script src = test.js charset ="UTF8"></script>
 </head>
 
 <body id="top">
@@ -14,7 +15,7 @@
         <header>
             <div class="header_content">
                 <a href="index.html"><img src="images/icon/header_icon.png" class="icon"></a>
-                <p>Page title</p>
+                <h1>Page title</h1>
                 <nav class="menu">
                     <ul>
                         <li>TOP</li>
@@ -28,13 +29,12 @@
         </header>
         <!--ここからmain-->
         <main>
-            <div class="main_article">
                 <!--背景画像上と見出し-->
                 <div class="top_img">
                     <div class="top_title">
                         <h1>
-                            <p>タイトルタイトルタイトル<br>
-                                タイトルタイトル</p>
+                            タイトルタイトルタイトル<br>
+                                タイトルタイトル
                         </h1>
                     </div>
                 </div>
@@ -76,23 +76,23 @@
                 </article>
                 <!--オプションメニュー-->
                 <div class="option_menu">
-                    <h2>選べるツアーオプション</h2>
+                    <h1>選べるツアーオプション</h1>
                     <div class="option">
                         <div class="service_imgs">
-                            <img src="images/option/option_food.jpg" alt="オプション画像_1">
-                            <h3>Food</h3>
+                            <a href="#link_1"><img src="images/option/option_food.jpg" alt="オプション画像_1"></a>
+                            <h2>Food</h2>
                             <p>テキストテキストテキストテキスト<br>
                                 テキストテキストテキストテキスト</p>
                         </div>
                         <div class="service_imgs">
-                            <img src="images/option/option_hotel.jpg" alt="オプション画像_2">
-                            <h3>Hotel</h3>
+                            <a href="#link_2"><img src="images/option/option_hotel.jpg" alt="オプション画像_2"></a>
+                            <h2>Hotel</h2>
                             <p>テキストテキストテキストテキスト<br>
                                 テキストテキストテキストテキスト</p>
                         </div>
                         <div class="service_imgs">
-                            <img src="images/option/option_activity.jpg" alt="オプション画像_3">
-                            <h3>Activity</h3>
+                            <a href="#link_3"><img src="images/option/option_activity.jpg" alt="オプション画像_3"></a>
+                            <h2>Activity</h2>
                             <p>テキストテキストテキストテキスト<br>
                                 テキストテキストテキストテキスト</p>
                         </div>
@@ -100,8 +100,8 @@
                 </div>
                 <!--Foodセクション-->
                 <article class="food_option">
+                    <a name="link_1"><h1>おいしい食事</h1></a>
                     <section class="food_section">
-                        <h1>おいしい食事</h1>
                         <div class="food_imgs">
                             <ul>
                                 <li><img src="images/food_option_img/food_1.jpg" alt="food_1"></li>
@@ -111,12 +111,10 @@
                                 <li><img src="images/food_option_img/food_5.jpg" alt="food_5"></li>
                             </ul>
                         </div>
-                    </section>
                     <!--サイドメニュー-->
                     <div class="side_box">
+                        <a href="#index.html"><img src="images/icon/reserve_icon.png" class="reserve_icon"></a>
                         <div class="side_inner">
-                            <h1><a href="index.html"><img src="images/icon/reserve_icon.png" class="reserve_icon"></a>
-                            </h1>
                             <h2>予約はこちら</h2>
                             <p>テキストテキストテキストテキスト
                                 テキストテキストテキストテキスト
@@ -126,21 +124,23 @@
                             <div class="button"><a href="">予約をする</a></div>
                         </div>
                     </div>
+                </section>
                 </article>
                 <!--hotelセクション-->
                 <article class="hotel_option">
+                    <a name="link_2"><h1>素晴らしいホテル</h1></a>
                     <section class="hotel_section">
-                        <h1>素晴らしいホテル</h1>
                         <div class="hotel_top">
                             <!--レスポンシブ用のクラス名-->
                             <div class="order_1">
                                 <h2>最高のホテル</h2>
                                 <p>テキストテキストテキストテキストテキスト
-                                    テキストテキストテキストテキストテキスト
-                                    テキストテキストテキストテキストテキスト
-                                    テキストテキストテキストテキストテキスト
-                                    テキストテキストテキストテキストテキスト
-                                    テキストテキストテキストテキストテキスト</p>
+                                   テキストテキストテキストテキストテキスト
+                                   テキストテキストテキストテキストテキスト
+                                   テキストテキストテキストテキストテキスト
+                                   テキストテキストテキストテキストテキスト
+                                   テキストテキストテキストテキストテキスト
+                                </p>
                                 <p class="price">価格：<span>20000円～</span></p>
                             </div>
                             <img src="images/hotel_option_img/hotel_5.jpg" alt="hotel_5">
@@ -182,9 +182,9 @@
                 </article>
                 <!--ここからactivityセクション-->
                 <article class="activity_option">
+                    <a name="link_3"><h1>多彩なアクティビティ体験</h1></a>
                     <section class="activity_section">
                         <div>
-                            <h1>多彩なアクティビティ体験</h1>
                             <div class="activity_imgs">
                                 <h2>Coming Soon</h2>
                                 <p>テキストテキストテキストテキストテキストテキストテキスト<br>
@@ -194,7 +194,6 @@
                         </div>
                     </section>
                 </article>
-            </div>
         </main>
         <!--ここからフッダーメニュー-->
         <footer>
