@@ -31,7 +31,6 @@ a{
 header{
 	background-color:#696969;
 	color:white;
-	padding:20px 0;
 }
 
 .header_content{
@@ -40,19 +39,17 @@ header{
 
 .header_content p{
 	font-size:4rem;
-	padding:10px 0;
 }
 
 .icon{
 	width:75px;
-	/* padding:22px 20px 0 35px; */
 	padding:18px 25px;
 }
 
 header h1{
-	font-size:4rem;
+	font-size:3.2rem;
 	font-weight:normal;
-	margin-top:25px;
+	margin-top:35px;
 	letter-spacing:.1em;
 }
 
@@ -91,7 +88,7 @@ header h1{
 .top_title{
 	padding:300px 0;
 	text-align:center;
-	font-size:3vw;
+	font-size:2.5vw;
 	color:white;
 	letter-spacing:.1em;
 }
@@ -111,6 +108,11 @@ header h1{
 
 .top_article p{
     font-size:1.6rem;
+}
+
+.top_article div{
+	width:80%;
+	margin:auto;	
 }
 
 .top_section img{
@@ -243,11 +245,9 @@ header h1{
 }
 
 .food_section {
-	/* width: 1000px; */
 	width:95%;
 	margin:auto;
 	display: flex;
-	/* flex-wrap: wrap; */
 }
 
 
@@ -277,9 +277,6 @@ header h1{
 	text-align:center;
 	font-size:1.6rem;
 	margin:auto;
-	/* position:relative;
-	top:250px;
-	transform:translateY(-50%); */
 	}
 
 .side_inner{
@@ -340,10 +337,6 @@ header h1{
     padding:.25em 0 .5em .75em;
     text-align:left;
 	font-size:4.5rem;
-
-.hotel_section{
-	margin-top:200px;
-}
 
 }
 
@@ -494,7 +487,7 @@ header h1{
 }
 
 .activity_imgs h2{
-    padding-top:210px;
+    padding-top:150px;
 	font-size:12rem;
 }
 
@@ -506,10 +499,11 @@ header h1{
 
 .activity_imgs p{
     margin-top:45px;
-    font-size:2rem;
+	font-size:2rem;
+	font-weight:bold;
 }
 
-/* ここからフッダー魔ニュー */
+/* ここからフッダーメニュー */
 footer{
 	background-color:#696969;
 	color:white;
