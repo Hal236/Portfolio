@@ -80,7 +80,7 @@ header h1{
 .top_img{
 	height:100vh;
 	background-image:url("../images/top_page/top_img_1.jpg");
-	transition:background-image 3.5s ease;
+	/* transition:background-image 3.5s ease; */
 	background-position:center center;
 	background-size:cover;
 }
