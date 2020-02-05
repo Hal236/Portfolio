@@ -9,8 +9,8 @@ html{
 
 .body{
 	width:100%;
-	max-width:1500px;
-    min-width:600px;
+	max-width:1024px;
+    min-width:768px;
     margin:auto;
 	background-color:#FFFF;
 }
