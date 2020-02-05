@@ -79,8 +79,8 @@ header h1{
 /* ここから見出しセクション*/
 .top_img{
 	height:100vh;
-	background-image:url(../images/top_page/top_img.jpg);
-	background-repeat:no-repeat;
+	background-image:url("../images/top_page/top_img_1.jpg");
+	transition:background-image 3.5s ease;
 	background-position:center center;
 	background-size:cover;
 }
